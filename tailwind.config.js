@@ -21,9 +21,18 @@ module.exports = {
         "2xl": "1536px",
     },
     fontFamily: {
-      primary: "var (--font-jetbrains-Mono)",
+      primary: "var(--font-jetbrainsMono)",
     },
     extend: {
+
+      colors: {
+        primary: '#1c1c22',
+        accent: {
+          DEFAULT: '#ad5bd5',
+          hover: '#a23fd3',
+        },
+      },
+
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
